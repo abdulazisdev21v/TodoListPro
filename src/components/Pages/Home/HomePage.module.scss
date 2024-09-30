@@ -1,0 +1,88 @@
+.HomePage {
+  padding: 50px 0;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    .block {
+        display: flex;
+        gap: 20px;
+      width: 400px;
+      height: 450px;
+      background-color: rgb(83, 10, 83);
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      border-radius: 20px;
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        .input{
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #af4c9e;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover{
+                background-color: #8c3877;
+            }
+         
+        }
+        .btn_create{
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #8c3877;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover{
+                background-color: #388e3c;
+            }
+         
+        }
+      }
+      .wrapper{
+
+          .input_image {
+            width: 350px;
+            height: 350px;
+            border-radius: 20px;
+            cursor: pointer;
+            object-fit: cover;
+          }
+          .block_edite{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+
+              .btn_edite{
+                margin-top: 10px;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+              }
+              .btn_delete{
+                margin-top: 10px;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+              }
+          }
+      }
+    }
+  }
+}
